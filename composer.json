@@ -1,0 +1,30 @@
+{
+    "name": "bagisto/bagisto-size-chart",
+    "description": "Allows the admin to easily create a size chart for their products.",
+    "keywords": [
+        "bagisto",
+        "size-chart"
+    ],
+    "homepage": "https://github.com/bagisto/bagisto-size-chart",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bagisto"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webkul\\SizeChart\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\SizeChart\\Providers\\SizeChartServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
